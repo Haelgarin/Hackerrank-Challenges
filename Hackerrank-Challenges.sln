@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time Conversion", "Time Con
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Breaking the Records", "Breaking the Records\Breaking the Records.vcxproj", "{7B3C7511-C480-4318-9715-5827D1CBE14C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Camel Case 4", "Camel Case 4\Camel Case 4.vcxproj", "{BFEF2490-938F-47A6-AA59-7CF09A9223C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{7B3C7511-C480-4318-9715-5827D1CBE14C}.Release|x64.Build.0 = Release|x64
 		{7B3C7511-C480-4318-9715-5827D1CBE14C}.Release|x86.ActiveCfg = Release|Win32
 		{7B3C7511-C480-4318-9715-5827D1CBE14C}.Release|x86.Build.0 = Release|Win32
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Debug|x64.ActiveCfg = Debug|x64
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Debug|x64.Build.0 = Debug|x64
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Debug|x86.Build.0 = Debug|Win32
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Release|x64.ActiveCfg = Release|x64
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Release|x64.Build.0 = Release|x64
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Release|x86.ActiveCfg = Release|Win32
+		{BFEF2490-938F-47A6-AA59-7CF09A9223C4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
