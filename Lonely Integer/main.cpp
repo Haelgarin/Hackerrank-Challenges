@@ -11,7 +11,7 @@ int lonelyInteger(std::vector<int> a)
     int count{};
     int uniqueVal{};
 
-    for (int64_t i{ 0 }; i < a.size(); ++i)
+    for (int64_t i{ 0 }; i < static_cast<int64_t>(a.size()); ++i)
     {
         // We've checked all other elements so the last one has to be unique
         if (i == a.size() - 1)
