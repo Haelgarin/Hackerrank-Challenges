@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cstdint>
 
 
 int lonelyInteger(std::vector<int> a)
@@ -10,12 +11,12 @@ int lonelyInteger(std::vector<int> a)
     int count{};
     int uniqueVal{};
 
-    for (int i{ 0 }; i < a.size(); ++i)
+    for (int64_t i{ 0 }; i < a.size(); ++i)
     {
         // We've checked all other elements so the last one has to be unique
         if (i == a.size() - 1)
         {
-            uniqueVal = a[i];
+            uniqueVal = a.at(i);
             break;
         }
 
@@ -27,9 +28,9 @@ int lonelyInteger(std::vector<int> a)
 
         else if (count == 1)
         {
-            if (a[i] != a[i - 1])
+            if (a.at(i) != a.at(i - 1))
             {
-                uniqueVal = a[i - 1];
+                uniqueVal = a.at(i - 1);
                 break;
             }
 
