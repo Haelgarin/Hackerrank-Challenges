@@ -12,7 +12,7 @@ int birthday(const std::vector<int>& s, int d, int m)
 
 		for (int j{ 0 }; j < m; ++j)
 		{
-			tempSum += s[static_cast<int64_t>(i + j)];
+			tempSum += s[static_cast<int64_t>(i) + j];
 		}
 
 		if (tempSum == d)
