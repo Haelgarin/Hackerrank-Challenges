@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Subarray Division 2", "Suba
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XOR Strings 3", "XOR Strings 3\XOR Strings 3.vcxproj", "{B5D09569-3B6A-4809-9818-2D599DC767AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sales by Match", "Sales by Match\Sales by Match.vcxproj", "{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{B5D09569-3B6A-4809-9818-2D599DC767AE}.Release|x64.Build.0 = Release|x64
 		{B5D09569-3B6A-4809-9818-2D599DC767AE}.Release|x86.ActiveCfg = Release|Win32
 		{B5D09569-3B6A-4809-9818-2D599DC767AE}.Release|x86.Build.0 = Release|Win32
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Debug|x64.ActiveCfg = Debug|x64
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Debug|x64.Build.0 = Debug|x64
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Debug|x86.ActiveCfg = Debug|Win32
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Debug|x86.Build.0 = Debug|Win32
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Release|x64.ActiveCfg = Release|x64
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Release|x64.Build.0 = Release|x64
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Release|x86.ActiveCfg = Release|Win32
+		{EFF349F6-3CB9-44E8-8D49-2EDB3D432825}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
